@@ -1,0 +1,36 @@
+# Environment variables
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Database files
+*.sqlite3
+chroma_db/
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Debug files
+debug_data.json
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# OS specific files
+.DS_Store
+Thumbs.db
